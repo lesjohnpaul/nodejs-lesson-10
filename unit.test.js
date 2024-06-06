@@ -17,13 +17,13 @@ describe('hooks', function () {
     console.log('Run at the end of each test');
   });
 
-  test('1 to powerer 2 to equal 1', () => {
+  test('1 to power 2 to equal 1', () => {
     console.log('1 to powerer 2 to equal 1');
     expect(power(1, 2)).toBe(1);
   });
 
-  test('3 to powerer 2 to equal 9', () => {
-    console.log('3 to powerer 2 to equal 9');
+  test('3 to power 2 to equal 9', () => {
+    console.log('3 to power 2 to equal 9');
     expect(power(3, 2)).toBe(9);
   });
 });
